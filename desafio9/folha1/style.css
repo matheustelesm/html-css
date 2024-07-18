@@ -1,0 +1,37 @@
+body{
+    background-color: #1b1c1b;
+}
+
+h1{
+    text-align: center;
+    font-display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#coluna1{
+    display: flex;
+    justify-content: center;
+    
+    padding-bottom: 5px;
+}
+
+.segundo{
+    margin-left: 5px;
+    
+
+}
+
+#coluna2{
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.quarto{
+    margin-left: 5px;
+}
+
