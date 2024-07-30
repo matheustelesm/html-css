@@ -7,11 +7,13 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover; 
+            background-attachment: fixed;
+            */
             /*
             auto -  deixar o navegador se virar para apresentar a imagem.
 
@@ -19,11 +21,20 @@
 
             contain - usar 100% da imagem sem tentar cortar, fica com barras laterais 
             */
+
+            /* Shorthand - background - no manual fala que aceita o size
+
+            color > image > position > repeat > [size (não funciona)]
+            > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
+            background-size: cover;
         }
+
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
