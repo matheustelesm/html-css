@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+        } 
+
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: top; /*Alinhamento vertical*/
+        }
+
+        .numero {
+            text-align: right;
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira Tabela</h1>
+    <h2>Teste de tabela</h2>
+    <!--
+    table = tabela
+        table row(tr) = linha da tabela
+            table header(th) = cabeçalho da tabela
+            table DATA(td) = dados da tabela
+            -->
+            <!--fechamento opcional das linhas-->
+            <!--SE A HIERARQUIA N FOR OBDECIDA, OD DADOS SERÃO IMPRESSOR OU ANTES OU DEPOIS DA TABELA-->
+    <table>
+        <tr> <!-- Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+            <td>D1</td>
+        </tr>
+        <tr > <!-- Segunda linha-->
+            <td>A2</td> <!--fechamento opcional-->
+            <td>B2</td>
+            <td class="numero">C2</td>
+            <td>D2</td>
+        </tr>
+        <tr> <!-- Terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+            <td>D3</td>
+        </tr>
+        <tr> <!-- Quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+            <td>D4</td>
+        </tr>
+    </table>
+</body>
+</html>
